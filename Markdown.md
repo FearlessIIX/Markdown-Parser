@@ -42,8 +42,8 @@ There are also lists:
 	
 You can make 
 
-- [] important
-- [] tasks
+- [ ] important
+- [ ] tasks
 
 
 <!-- Comments need to be hidden -->
