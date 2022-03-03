@@ -5,7 +5,7 @@
 ##### Header 5
 ###### Header 6
 
-This is a normal text with some _italics_ and some **bolded** words. There is also ~~ strikethrough ~~.  
+This is a normal text with some _italics_ and some **bolded** words. There is also strikethrough.   
 Two spaces at the end of a line will create a new line, without the 2 spaces it will stay on the same line.
 
 ** _italics_ and bolded text can be _nested_ **
