@@ -1,9 +1,9 @@
-# Utils.Header 1
-## Utils.Header 2
-### Utils.Header 3
-#### Utils.Header 4
-##### Utils.Header 5
-###### Utils.Header 6
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 
 This is a normal text with some _italics_ and some **bolded** words. There is also ~~ strikethrough ~~.  
 Two spaces at the end of a line will create a new line, without the 2 spaces it will stay on the same line.
