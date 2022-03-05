@@ -1,7 +1,7 @@
 package HTML.Elements;
 
 import HTML.Container;
-import Utils.Text.Text;
+import Utils.Text;
 
 import java.util.ArrayList;
 
@@ -26,7 +26,7 @@ public class P extends Container {
     }
 
     // Getters
-    public boolean addNewlineAfter() { return this.newline_after; }
+    public boolean getNewlineAfter() { return this.newline_after; }
 
     // Setters
     public void setNewlineAfter(boolean new_after) { this.newline_after = new_after; }

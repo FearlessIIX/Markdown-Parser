@@ -1,7 +1,6 @@
 package HTML;
 
-import HTML.Element;
-import Utils.Text.Text;
+import Utils.Text;
 
 import java.util.ArrayList;
 
