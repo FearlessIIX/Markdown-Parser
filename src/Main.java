@@ -28,9 +28,7 @@ public class Main {
         // Converting the Tokens into HTML Elements (cast down to Container)
         ArrayList<Container> data = GenerateData.generateData(results);
 
-        for (Container c : data) {
-            System.out.println(c);
-        }
+        GenerateHTML.generateHTML(data, args[0]);
     }
     public static ArrayList<String> readFile(String filename) {
         ArrayList<String> lines = new ArrayList<>();
@@ -48,6 +46,7 @@ public class Main {
             String s = currentRelativePath.toAbsolutePath().toString();
 
             System.out.println("Failed to find file named '" + filename + "' in '" + s + "'");
+            System.out.println("Exiting. . ");
             System.exit(-1);
         }
         return lines;
