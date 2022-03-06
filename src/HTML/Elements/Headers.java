@@ -5,7 +5,7 @@ import Utils.Text;
 import java.util.ArrayList;
 
 public class Headers {
-    static class H1 extends HeaderBase {
+    public static class H1 extends HeaderBase {
 
         // Constructors
         public H1() {
@@ -19,7 +19,7 @@ public class Headers {
             this.name = "h1";
         }
     }
-    static class H2 extends HeaderBase {
+    public static class H2 extends HeaderBase {
         // Constructors
         public H2() {
             super(2);
@@ -32,7 +32,7 @@ public class Headers {
             this.name = "h2";
         }
     }
-    static class H3 extends HeaderBase {
+    public static class H3 extends HeaderBase {
         // Constructors
         public H3() {
             super(3);
@@ -45,7 +45,7 @@ public class Headers {
             this.name = "h3";
         }
     }
-    static class H4 extends HeaderBase {
+    public static class H4 extends HeaderBase {
         // Constructors
         public H4() {
             super(4);
@@ -58,7 +58,7 @@ public class Headers {
             this.name = "h4";
         }
     }
-    static class H5 extends HeaderBase {
+    public static class H5 extends HeaderBase {
         // Constructors
         public H5() {
             super(5);
@@ -71,7 +71,7 @@ public class Headers {
             this.name = "h5";
         }
     }
-    static class H6 extends HeaderBase {
+    public static class H6 extends HeaderBase {
         // Constructors
         public H6() {
             super(6);
