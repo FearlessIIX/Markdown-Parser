@@ -5,22 +5,22 @@
 ##### Header 5
 ###### Header 6
 
-This is a normal text with some _italics_ and some **bolded** words. There is also ~~ strikethrough ~~.  
+This is a normal text with some _italics_ and some **bolded** words. There is also ~~strikethrough~~.  
 Two spaces at the end of a line will create a new line, without the 2 spaces it will stay on the same line.
 
-** _italics_ and bolded text can be _nested_ **
+**_italics_ and bolded text can be _nested_**
 
-> There is also something called quote blocks
+> There is also something called quote blocks  
 > It can have multiple lines
 
 There are also `inline` code and:
 
-```py
-print("Code blocks too!")
+```
+print("And code blocks too!")
 
 ```
 
-Maybe you have a really cool information that you cited from a website, you can [Link](https://youtube.com) it too.
+Maybe you have a really cool information that you cited from a website, you can [Link](https://youtube.com) it too.  
 Using the `!` in front of a link, you can put an image:
 ![it's supposed to be an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
