@@ -5,6 +5,9 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
+import HTML.Container;
+import Utils.Token;
+
 public class Main {
     public static void main(String[] args) {
         // Prints a message and exits if less than one command line argument was passed
@@ -13,9 +16,21 @@ public class Main {
             return;
         }
 
+        // Reading the file
         ArrayList<String> contents = readFile(args[0]);
 
-        Tokenizer.tokenize(contents);
+        // Tokenizing the contents of the file
+        ArrayList<ArrayList<Token>> results = Tokenizer.tokenize(contents);
+
+        // Merging all Tokens capable of merging
+        results = Merge.merge(results);
+
+        // Converting the Tokens into HTML Elements (cast down to Container)
+        ArrayList<Container> data = GenerateData.generateData(results);
+
+        for (Container c : data) {
+            System.out.println(c);
+        }
     }
     public static ArrayList<String> readFile(String filename) {
         ArrayList<String> lines = new ArrayList<>();
